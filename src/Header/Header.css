@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:800');
+
+.Header-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.Header-link {
+    font-family: 'Montserrat', sans-serif;
+    padding: 26px 40px;
+    font-size: 13px;
+    color: #A1CEC7;
+    text-decoration: none;
+}
+
+.Header-link:hover {
+    -webkit-text-stroke: #A1CEC7 1px;
+}
+
