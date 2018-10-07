@@ -1,0 +1,33 @@
+.About {
+    display: block;
+    margin-top: 400px;
+    padding: 80px 0 0 0;
+    text-align: center;
+  }
+  
+  .Headshot {
+    display: block;
+    margin: 0 auto;
+    width: 12%;
+    border-radius: 50%;
+    border: 3px white solid;
+    box-shadow: 0 4px 8px 0 rgba(165, 109, 109, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .About-title {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #F49E85;
+  }
+  
+  .Personal-intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 40%;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #7b7b7b;
+  }
