@@ -23,7 +23,7 @@
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 27px;
-    color: #A1CEC7;
+    color: rgb(0, 0, 0);
 }
 
 .Experience-date {
@@ -40,8 +40,8 @@
   }
 
 .Experience-photo {
-    width: 30%;
+    /* width: 30%;
     height: 20%;
-    border-radius: 38px;
+    border-radius: 38px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

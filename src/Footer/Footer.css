@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:800');
 
-.Link-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
+.getintouch {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(179, 179, 179);
 }
 
-.link {
+.email-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.email {
     font-family: 'Montserrat', sans-serif;
-    padding: 26px 40px;
-    font-size: 13px;
-    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(0,0,0);
     text-decoration: none;
 }
 
-.link:hover {
-    -webkit-text-stroke: white 1px;
+.email:hover {
+    color: #ffc37a;
 }
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    width: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 

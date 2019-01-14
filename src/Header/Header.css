@@ -9,14 +9,16 @@
 
 .Header-link {
     font-family: 'Montserrat', sans-serif;
-    padding: 26px 40px;
-    font-size: 13px;
-    color: #A1CEC7;
+    padding: 17px;
+    font-size: 15px;
+    color: #8bb1b6;
+    /* color: rgb(255, 103, 103); */
+    /* color: #A1CEC7; */
     text-decoration: none;
 }
 
 .Header-link:hover {
-    -webkit-text-stroke: #A1CEC7 1px;
+    -webkit-text-stroke:  #0085b6 1px;
 }
 
 .NavLink {

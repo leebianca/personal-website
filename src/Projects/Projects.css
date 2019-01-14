@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:400,700,800');
 
+.Projects {
+    margin-top: 200px;
+}
+
 .Project-container {
     display: flex;
     flex-direction: row;
@@ -12,27 +16,29 @@
     width: 350px;
     height: 400px;
     margin: 10px;
-    border-radius: 38px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .Overlay {
     display: flex;
     flex-direction: column;
     z-index: 1;
-    width: 350px;
+    width: 600px;
     height: 400px;
     opacity: 0;
     margin: 10px;
-    background-color: white;
     text-align: center;
     transition: .6s ease;
-    border-radius: 38px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border-radius: 38px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .Overlay:hover:not(.Project-title) {
     opacity: 0.95;
+}
+
+a {
+    text-decoration: none;
 }
 
 .Project-title {
@@ -43,12 +49,9 @@
     z-index: 100;
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
+    text-decoration: none;
 }
 
-.Project-title:hover {
-    color: #F49E85;
-    opacity: 1;
-}
 
 .Project-descrip {
     margin: 20px auto;
@@ -58,4 +61,5 @@
     z-index: 100;
     font-family: 'Lora', serif;
     font-size: 15px;
+    text-decoration: none;
 }

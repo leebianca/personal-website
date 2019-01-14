@@ -9,53 +9,56 @@
 
 .Project-photo {
     position: absolute;
-    width: 350px;
+    width: 500px;
+    margin: 30px;
+    /* width: 350px;
     height: 400px;
-    margin: 10px;
-    border-radius: 38px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px; */
+    border-radius: 30px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .Overlay {
     display: flex;
     flex-direction: column;
     z-index: 1;
-    width: 350px;
+    width: 500px;
     height: 400px;
     opacity: 0;
-    margin: 10px;
+    margin: 30px;
     background-color: white;
     text-align: center;
     transition: .6s ease;
-    border-radius: 38px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    box-shadow: 0 2px 2px 0 rgba(171, 171, 171, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Overlay:hover:not(.Project-title) {
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 .Project-title {
     position: block;
-    margin-top: 90px;
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
     opacity: 1;
-    color: #A1CEC7;
+    color: #ffa941;
     z-index: 100;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
-}
-
-.Project-title:hover {
-    color: #F49E85;
-    opacity: 1;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 .Project-descrip {
     margin: 20px auto;
     width: 75%;
     opacity: 1;
-    color: gray;
+    color: black;
     z-index: 100;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    text-decoration: none;
 }
