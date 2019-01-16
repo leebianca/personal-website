@@ -1,15 +1,15 @@
 {
-  "main.css": "static/css/main.21815781.css",
-  "main.css.map": "static/css/main.21815781.css.map",
-  "main.js": "static/js/main.96cabbc3.js",
-  "main.js.map": "static/js/main.96cabbc3.js.map",
+  "main.css": "static/css/main.dc224b43.css",
+  "main.css.map": "static/css/main.dc224b43.css.map",
+  "main.js": "static/js/main.676b9f85.js",
+  "main.js.map": "static/js/main.676b9f85.js.map",
   "static/media/Resume.pdf": "static/media/Resume.38dba015.pdf",
-  "static/media/background.png": "static/media/background.2436a8c0.png",
-  "static/media/codebase.jpg": "static/media/codebase.e6be2f5a.jpg",
-  "static/media/flavorbox.png": "static/media/flavorbox.217bf7f6.png",
-  "static/media/headshot.jpg": "static/media/headshot.d12215f7.jpg",
-  "static/media/hkasc.png": "static/media/hkasc.d9dc4c5f.png",
-  "static/media/invitation.png": "static/media/invitation.01dbed89.png",
-  "static/media/usc.jpg": "static/media/usc.18913d52.jpg",
-  "static/media/wild.png": "static/media/wild.50d9cbe0.png"
+  "static/media/dots.png": "static/media/dots.557a0136.png",
+  "static/media/flavorbox.png": "static/media/flavorbox.e8a79b7b.png",
+  "static/media/invitation.png": "static/media/invitation.4d04c5ee.png",
+  "static/media/navbar.png": "static/media/navbar.bef9cdf5.png",
+  "static/media/p5.png": "static/media/p5.986d2b22.png",
+  "static/media/portal.png": "static/media/portal.891118c9.png",
+  "static/media/where2meet.png": "static/media/where2meet.09a2e2d6.png",
+  "static/media/wild.png": "static/media/wild.aeb0ed53.png"
 }
