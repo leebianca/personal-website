@@ -18,7 +18,7 @@ class Footer extends Component {
           <div className="links">
             <a href="https://www.linkedin.com/in/biancalee27/" target="_blank"><img className="link" src={linkedin} alt="linkedin"/></a>
             <a href="https://github.com/leebianca" target="_blank"><img className="link" src={github} alt="github"/></a>
-            <a href="https://www.behance.net/Biancalee26ca6" target="_blank"><img className="link" src={behance} alt="behance"/></a>
+            <a href="https://www.behance.net/biancalee" target="_blank"><img className="link" src={behance} alt="behance"/></a>
           </div>
         </div>
     );
