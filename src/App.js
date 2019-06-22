@@ -1,39 +1,36 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import './App.css';
-import navbar from './navbar.png';
-import dots from './dots.png';
-import arrow from './arrow.png';
-import resume from './Resume.pdf';
-import Projects from './Projects/Projects';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
+import "./App.css";
+import resume from "./assets/Resume.pdf";
+import Home from "./components/Home";
+import About from "./components/About/About";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import ACTransit from "./components/ACTransit/ACTransit";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="Landing-page">
-          {/* <img className="navbar" src={navbar} alt="navbar"/> */}
+      <Router>
+        <div className="App">
+          <a className="bianca" href="/">
+            BIANCA LEE
+          </a>
           <div className="Navigation">
-            {/* <Header className="Header-link" name="About" link="#about"/> */}
-            <Header className="Header-link" name="work" link="#work"/>
-            <Header className="Header-link" name="resumé" link={resume}/>
-            <Header className="Header-link" name="contact" link="#contact"/>
+            <Header className="Header-link" name="about" link="/about" />
+            <Header className="Header-link" name="work" link="/#work" />
+            <Header className="Header-link" name="resumé" link={resume} />
+            <Header className="Header-link" name="contact" link="/#contact" />
           </div>
-          <h2 className="home">BIANCA LEE</h2>
-          <h1 className="Hello">Hello!</h1>
-          <h3 className="intro">I'm a first-year at UC Berkeley studying computer science, and I’m passionate about creating beautiful designs that help the world around me.</h3>
-          <div className="button-wrapper">
-            <button className="button" type="button">developer</button>
-            <button className="button" type="button">designer</button>
-            <button className="button" type="button">learner</button>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/ac-transit" component={ACTransit} />
+          <div id="contact">
+            <Footer id="contact" />
           </div>
         </div>
-        <img className="arrow bounce" src={arrow} alt="arrow"/>
-        <div id="work"><Projects id="work"/></div>
-        <div id="contact"><Footer id="contact"/></div>
-      </div>
+      </Router>
     );
   }
 }

@@ -1,0 +1,73 @@
+.About {
+  display: block;
+  padding: 80px 0 0 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Headshot {
+  display: inline-block;
+  /* margin-left: 15%; */
+  width: 20%;
+  border-radius: 15%;
+  /* border: 3px white solid;
+    box-shadow: 0 4px 8px 0 rgba(165, 109, 109, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.About-title {
+  margin-top: 50px;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 30px;
+  color: #f49e85;
+}
+
+.Personal-intro {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 57%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: black;
+}
+
+.text {
+  display: inline;
+  font-weight: 600;
+  padding: 0;
+  color: black;
+}
+
+.lessbold-text {
+  color: rgb(0, 0, 0);
+}
+
+.lessbold-text:hover {
+  color: rgb(148, 148, 148);
+}
+
+.codebase {
+  color: #3d4ab0;
+}
+
+.codebase:hover {
+  color: #8f98de;
+}
+
+.innod {
+  color: #4cafcd;
+}
+
+.innod:hover {
+  color: #9fd4e4;
+}
+
+.letseat {
+  color: #ff4848;
+}
+
+.letseat:hover {
+  color: #ff8383;
+}
